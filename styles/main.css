@@ -1,0 +1,29 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tagline{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    color: #845c0e;
+    font-size: 25px;
+}
+
+#story{
+    text-align: center;
+    padding: 2%;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#reserve{
+    padding: 1%;
+}
+
+#item{
+    padding: 1%;
+}

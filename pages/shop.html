@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <script src="../JS/shop.js"></script>
+    <title>Shop</title>
+</head>
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="home.html">
+                <img src="../media/small logo.png">
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href = "home.html" >
+                    Home
+                </a>
+
+                <a class="navbar-item has-text-white has-background-dark" href = "shop.html">
+                    Shop
+                </a>
+
+                <a class="navbar-item" href = "experiences.html">
+                    VR Experiences
+                </a>
+
+                <a class="navbar-item" href = "dining.html">
+                    Dining
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div class="content has-background-grey">
+        <div class="columns is-multiline is-mobile is-1">
+            <div class="column is-one-quarter" id="item">
+                <div class = "box has-background-dark has-text-white">
+                    <p id = "story">Package 1</p>
+                    <img class = "center" width = 40% src="../media/waramaug-marcell-viragh-mSIS9juF3Rs-unsplash.png">
+                    <br>
+                    <button class="button js-modal-trigger is-outlined is-white is-responsive is-fullwidth" data-target="p1">View Details</button>
+
+                    <div class="modal" id = "p1">
+                        <div class="modal-background"></div>
+                        <div class="modal-card">
+                          <header class="modal-card-head">
+                            <p class="modal-card-title">Package 1</p>
+                            <button class="delete" aria-label="close"></button>
+                          </header>
+                          <section class="modal-card-body has-text-black">
+                            <p>This is the first Package</p>
+                          </section>
+                          <footer class="modal-card-foot">
+                            <button class="button is-outlined is-black is-responsive is-fullwidth">Add To Cart</button>
+                          </footer>
+                        </div>
+                      </div>
+                    <br>
+                    <button class="button is-outlined is-white is-responsive is-fullwidth">Add To Cart</button>
+                </div>
+            </div>
+
+            <div class="column is-one-quarter" id="item">
+                <div class = "box has-background-dark has-text-white">
+                    <p id = "story">Package 2</p>
+                    <img class = "center" width = 40% src="../media/waramaug-marcell-viragh-mSIS9juF3Rs-unsplash.png">
+                    <br>
+                    <button class="button js-modal-trigger is-outlined is-white is-responsive is-fullwidth" data-target="p2">View Details</button>
+
+                    <div class="modal" id = "p2">
+                        <div class="modal-background"></div>
+                        <div class="modal-card">
+                          <header class="modal-card-head">
+                            <p class="modal-card-title">Package 2</p>
+                            <button class="delete" aria-label="close"></button>
+                          </header>
+                          <section class="modal-card-body has-text-black">
+                            <p>This is the Second Package</p>
+                          </section>
+                          <footer class="modal-card-foot">
+                            <button class="button is-outlined is-black is-responsive is-fullwidth">Add To Cart</button>
+                          </footer>
+                        </div>
+                      </div>
+                    <br>
+                    <button class="button is-outlined is-white is-responsive is-fullwidth">Add To Cart</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    
+</body>
+</html>
